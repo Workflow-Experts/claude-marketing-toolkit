@@ -1,4 +1,4 @@
-# 🔍 SEO & AEO Specialist — Claude Skill
+# 🔍 SEO & AEO Specialist - Claude Skill
 
 Get Claude to actually think about SEO and AEO (answer engine optimisation) when you're working on content. Instead of generic advice, it'll give you specific recommendations for ranking in traditional search *and* getting cited by AI answer engines like Google AI Overviews, ChatGPT Search, and Perplexity.
 
