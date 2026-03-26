@@ -1,4 +1,4 @@
-# 🔍 SEO & AEO Specialist - Claude Configuration
+# 🔍 SEO & AEO Specialist — Claude Skill
 
 Get Claude to actually think about SEO and AEO (answer engine optimisation) when you're working on content. Instead of generic advice, it'll give you specific recommendations for ranking in traditional search *and* getting cited by AI answer engines like Google AI Overviews, ChatGPT Search, and Perplexity.
 
@@ -8,34 +8,46 @@ Get Claude to actually think about SEO and AEO (answer engine optimisation) when
 
 ## What's Included
 
-| File | Where to Use It | Best For |
-|------|-----------------|----------|
-| `custom-instructions.md` | Settings > Customise Claude | Background SEO awareness in all your conversations |
-| `project-instructions.md` | Create a Project > Project Instructions | A dedicated SEO workspace with structured frameworks |
+```
+seo-aeo-specialist/
+├── SKILL.md                           ← the skill itself
+├── project-instructions.md            ← for dedicated Claude projects
+└── references/
+    ├── content-templates.md           ← blog post, landing page, and local SEO frameworks
+    ├── schema-examples.md             ← ready-made JSON-LD for all common schema types
+    └── faq-guide.md                   ← FAQ creation, formatting, schema, and AEO optimisation
+```
+
+**Two ways to use this:**
+
+The **skill** is what you want most of the time. Upload it once, and Claude loads it automatically whenever you're doing something SEO-related — writing a blog post, building a landing page, creating FAQ content. You don't need to tell it to use SEO knowledge; it just does.
+
+The **project instructions** are for when you want a dedicated SEO workspace. Create a project, paste them in, and every conversation in that project is geared toward SEO from the start. Good for keyword research sessions and content audits.
 
 ---
 
-## What It Does
+## What It Covers
 
-### Custom Instructions
-The lighter option. Drop this into your Customise Claude settings and it quietly shapes how Claude approaches any content discussion. It'll consider search intent, suggest schema markup, think about SERP features, and flag AEO opportunities without you having to ask.
+**Written SEO & AEO strategy** — a layered approach that works through intent, structure, semantics, and AEO optimisation. Keyword analysis with intent classification, SERP feature breakdowns, and AEO opportunity scoring. Content plans for blog posts, landing pages, and local businesses.
 
-### Project Instructions
-This is the full setup. Create a dedicated project and Claude gets access to structured frameworks for keyword analysis, content planning, technical audits, and AEO optimisation.
+**FAQ content creation** — how to research the right questions, structure answers for AI engine extraction, group and organise FAQ pages, and implement FAQPage schema markup. FAQ content is where SEO and AEO overlap most, so the guide goes deep here.
 
-In practice, that means you can throw it a list of keywords and get back intent classifications, difficulty estimates, SERP feature breakdowns, and AEO opportunity scores. Ask it to plan a blog post and it'll work through intent, structure, semantics, technical elements, and AEO in layers rather than just giving you a flat outline. It handles local SEO too, including Google Business Profile and local schema.
+**Technical SEO implementation** — actual code, not theory. Copy-paste JSON-LD templates for LocalBusiness, FAQPage, HowTo, Article, Product, Service, BreadcrumbList, and Organization. Meta tags, canonical tags, and robots directives with exact HTML. Core Web Vitals diagnostics and fixes. Site architecture and internal linking strategy.
 
 ---
 
 ## Quick Start
 
-### Option 1: Custom Instructions (2 minutes)
-1. Open [claude.ai](https://claude.ai)
-2. Go to Settings > Customise Claude > Custom Instructions
-3. Copy the contents of `custom-instructions.md` and paste it in
-4. Save. That's it.
+### Install the Skill (2 minutes)
+1. Download this `seo-aeo-specialist` folder
+2. Zip the folder
+3. Open [claude.ai](https://claude.ai) and go to Settings > Customize > Skills
+4. Upload the zip file
+5. Done. Claude loads the skill automatically when it detects SEO-related tasks.
 
-### Option 2: Dedicated Project (5 minutes)
+**Note:** You need Code Execution enabled for skills to work. Check Settings > Capabilities if the skill isn't triggering.
+
+### Or Use as a Project (5 minutes)
 1. Open [claude.ai](https://claude.ai)
 2. Click Projects > Create Project
 3. Name it something like "SEO & AEO Workspace"
@@ -45,8 +57,6 @@ In practice, that means you can throw it a list of keywords and get back intent 
 ---
 
 ## Example Prompts
-
-Here are some good ones to start with:
 
 **Keyword Analysis**
 ```
@@ -59,8 +69,20 @@ Analyse these keywords for a plumbing business in Manchester:
 
 **Content Planning**
 ```
-Plan a blog post targeting "how to choose a CRM for small business" - 
+Plan a blog post targeting "how to choose a CRM for small business" — 
 I want to rank for the featured snippet and get cited in AI Overviews.
+```
+
+**FAQ Page Creation**
+```
+I run a personal training business. Create an FAQ page with 10 questions 
+targeting People Also Ask results. Include the FAQPage schema markup.
+```
+
+**Schema Markup**
+```
+I need LocalBusiness schema markup for a plumbing company in Leeds 
+that covers 5 service areas. Give me the full JSON-LD.
 ```
 
 **AEO Optimisation**
@@ -70,12 +92,6 @@ How can I optimise it so AI answer engines cite it when people ask
 about email automation?
 
 [paste your content]
-```
-
-**Technical SEO**
-```
-Review this page for technical SEO issues: [URL]
-Focus on schema markup opportunities and Core Web Vitals.
 ```
 
 **Local SEO**
@@ -88,17 +104,17 @@ covering Google Business Profile, local schema, and content strategy.
 
 ## How AEO Works (Quick Primer)
 
-Traditional SEO gets you ranking in search results. AEO is about getting your content cited by AI answer engines - Google AI Overviews, ChatGPT Search, Perplexity, and the rest. These tools are giving users answers directly now, and they're pulling that information from somewhere.
+Traditional SEO gets you ranking in search results. AEO is about getting your content cited by AI answer engines — Google AI Overviews, ChatGPT Search, Perplexity, and the rest. These tools are giving users answers directly now, and they're pulling that information from somewhere.
 
 The factors that seem to matter most for getting cited:
 
-- **Authority** - does your domain have trust and depth on this topic?
-- **Clarity** - are your answers direct and unambiguous?
-- **Structure** - do you use schema markup, tables, numbered steps, clear headings?
-- **Freshness** - when was this published or last updated?
-- **Specificity** - are you using concrete data, or just vague statements?
+- **Authority** — does your domain have trust and depth on this topic?
+- **Clarity** — are your answers direct and unambiguous?
+- **Structure** — do you use schema markup, tables, numbered steps, clear headings?
+- **Freshness** — when was this published or last updated?
+- **Specificity** — are you using concrete data, or just vague statements?
 
-This config gets Claude thinking about all of these when it helps you with content.
+FAQ pages are particularly strong for AEO because each Q&A pair is a self-contained, citable answer. Combine that with FAQPage schema and you've got content that both Google and AI engines can easily parse and reference.
 
 ---
 
@@ -110,7 +126,7 @@ Paste in existing content and ask Claude to optimise it. You'll get more value f
 
 Ask Claude to prioritise. It'll give you a lot of recommendations, so have it tell you what to tackle first.
 
-Use the project for ongoing work. Context carries across conversations, so the more you use it the more useful it gets.
+If you're using the project, keep it for ongoing work. Context carries across conversations, so the more you use it the more useful it gets.
 
 Bring in data from your other tools. Export keyword data from Ahrefs or SEMrush and paste it in for analysis.
 
@@ -118,9 +134,8 @@ Bring in data from your other tools. Export keyword data from Ahrefs or SEMrush 
 
 ## Coming Soon
 
-- 🎥 Video walkthrough on YouTube showing how to set this up and use it
-- ⚡ Claude Code version with slash commands (`/seo-audit`, `/content-plan`, `/schema-generate`)
-- 📦 More configs: GHL Workflow Planner, GHL API Assistant, Marketing Funnel Architect
+- 🎥 Video walkthrough on YouTube showing how to install and use this skill
+- 📦 More skills: GHL Workflow Planner, GHL API Assistant, Marketing Funnel Architect
 
 ---
 
@@ -128,12 +143,12 @@ Bring in data from your other tools. Export keyword data from Ahrefs or SEMrush 
 
 Tutorials, tools, and templates for workflow automation and marketing.
 
-- 🎬 [YouTube](https://youtube.com/@WorkflowExperts) - Tutorials and walkthroughs
-- 💬 [Community](https://www.facebook.com/groups/workflowexperts/) - Get help and share what you build
-- 🔧 [GHL Snapshots](https://workflow-experts.com) - Pre-built automation workflows
+- 🎬 [YouTube](https://youtube.com/@WorkflowExperts) — Tutorials and walkthroughs
+- 💬 [Community](https://www.facebook.com/groups/workflowexperts/) — Get help and share what you build
+- 🔧 [GHL Snapshots](https://workflow-experts.com) — Pre-built automation workflows
 
 ---
 
 ## Licence
 
-MIT - use it, modify it, share it. Attribution appreciated but not required.
+MIT — use it, modify it, share it. Attribution appreciated but not required.
