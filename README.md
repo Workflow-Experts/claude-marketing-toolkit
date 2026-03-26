@@ -1,4 +1,4 @@
-# Claude Marketing Toolkit
+# 🧰 Claude Marketing Toolkit
 
 Claude configurations for people who do marketing, run agencies, or build automations. Copy them into [claude.ai](https://claude.ai) and Claude starts giving you better, more specific outputs for SEO, GHL workflows, funnels, and more.
 
@@ -27,18 +27,18 @@ There are two ways to use each config:
 
 | Config | Description | Status |
 |--------|-------------|--------|
-| [SEO & AEO Specialist](./seo-aeo-specialist/) | Keyword analysis, content planning, technical SEO, schema markup, and optimisation for AI answer engines. | Available |
-| GHL Workflow Planner | Describe a business process and get a buildable GHL workflow back. Triggers, actions, conditions, the lot. | Coming Soon |
-| GHL API Assistant | Help with webhook payloads, custom values, API calls, and integrations. | Coming Soon |
+| [SEO & AEO Specialist](./seo-aeo-specialist/) | Keyword analysis, content planning, technical SEO, schema markup, and optimisation for AI answer engines. | ✅ Available |
+| GHL Workflow Planner | Describe a business process and get a buildable GHL workflow back. Triggers, actions, conditions, the lot. | 🔜 Coming Soon |
+| GHL API Assistant | Help with webhook payloads, custom values, API calls, and integrations. | 🔜 Coming Soon |
 
 ### Community / Paid
 
 | Config | Description | Status |
 |--------|-------------|--------|
-| Marketing Funnel Architect | Funnel blueprints with GHL pipeline stages, automation sequences, and conversion strategy. | Coming Soon |
-| GHL Snapshot Documenter | Professional documentation for GHL snapshots you sell or deliver to clients. | Coming Soon |
-| GHL Reporting Narrator | Takes GHL analytics and turns them into summary reports your clients can actually read. | Coming Soon |
-| Client Onboarding Planner | Questionnaires and onboarding workflows for agency client intake. | Coming Soon |
+| Marketing Funnel Architect | Funnel blueprints with GHL pipeline stages, automation sequences, and conversion strategy. | 🔜 Coming Soon |
+| GHL Snapshot Documenter | Professional documentation for GHL snapshots you sell or deliver to clients. | 🔜 Coming Soon |
+| GHL Reporting Narrator | Takes GHL analytics and turns them into summary reports your clients can actually read. | 🔜 Coming Soon |
+| Client Onboarding Planner | Questionnaires and onboarding workflows for agency client intake. | 🔜 Coming Soon |
 
 ---
 
@@ -73,10 +73,10 @@ Each config has a companion video showing how to set it up and put it to work.
 
 Tutorials, tools, and templates for workflow automation and marketing.
 
-- [YouTube](https://youtube.com/@WorkflowExperts) - Tutorials and walkthroughs
-- [Community](https://www.facebook.com/groups/workflowexperts/) - Get help, share what you build, access paid resources
-- [GHL Snapshots](https://workflow-experts.com) - Pre-built automation workflows
-- [GitHub](https://github.com/Workflow-Experts) - Open source tools and configs
+- 🎬 [YouTube](https://youtube.com/@WorkflowExperts) - Tutorials and walkthroughs
+- 💬 [Community](https://www.facebook.com/groups/workflowexperts/) - Get help, share what you build, access paid resources
+- 🔧 [GHL Snapshots](https://workflow-experts.com) - Pre-built automation workflows
+- 🐙 [GitHub](https://github.com/Workflow-Experts) - Open source tools and configs
 
 ---
 
