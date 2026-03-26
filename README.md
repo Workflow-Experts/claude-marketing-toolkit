@@ -1,23 +1,23 @@
-# 🧰 Claude Marketing Toolkit
+# Claude Marketing Toolkit
 
-**Ready-made Claude configurations for marketers, agency owners, and automation builders.**
+Claude configurations for people who do marketing, run agencies, or build automations. Copy them into [claude.ai](https://claude.ai) and Claude starts giving you better, more specific outputs for SEO, GHL workflows, funnels, and more.
 
-Drop these into [claude.ai](https://claude.ai) and instantly get specialist-level AI assistance for SEO, workflow automation, funnel building, and more. No prompt engineering required — just plug in and go.
+No prompt engineering. Just paste and go.
 
-> Built by [Workflow Experts](https://github.com/YOUR-USERNAME) — teaching accessible workflow automation for business processes and marketing.
+> Built by [Workflow Experts](https://github.com/Workflow-Experts)
 
 ---
 
 ## What's This?
 
-A collection of **custom instructions** and **project instructions** that turn Claude into a specialist assistant for specific marketing tasks. Each configuration has been refined through real client work and is designed to give you genuinely useful outputs — not generic AI fluff.
+A set of custom instructions and project instructions that make Claude better at specific marketing tasks. Each one has been tested through actual use and refined until the outputs were worth keeping.
 
-**Two ways to use each config:**
+There are two ways to use each config:
 
 | Type | Where | Best For |
 |------|-------|----------|
-| **Custom Instructions** | Settings → Customise Claude | Always-on awareness across all conversations |
-| **Project Instructions** | Projects → Project Instructions | A dedicated workspace with full frameworks |
+| Custom Instructions | Settings > Customise Claude | Background awareness in all your conversations |
+| Project Instructions | Projects > Project Instructions | A dedicated workspace with full frameworks |
 
 ---
 
@@ -27,70 +27,65 @@ A collection of **custom instructions** and **project instructions** that turn C
 
 | Config | Description | Status |
 |--------|-------------|--------|
-| 🔍 [SEO & AEO Specialist](./seo-aeo-specialist/) | Search engine + answer engine optimisation. Keyword analysis, content planning, technical SEO, schema markup, and AI Overview optimisation. | ✅ Available |
-| 🔄 GHL Workflow Planner | Map business processes into buildable GHL workflows. Triggers, actions, conditions, and automation logic. | 🔜 Coming Soon |
-| 🔌 GHL API Assistant | Work with the GHL API confidently. Webhook payloads, custom values, API calls, and integration help. | 🔜 Coming Soon |
+| [SEO & AEO Specialist](./seo-aeo-specialist/) | Keyword analysis, content planning, technical SEO, schema markup, and optimisation for AI answer engines. | Available |
+| GHL Workflow Planner | Describe a business process and get a buildable GHL workflow back. Triggers, actions, conditions, the lot. | Coming Soon |
+| GHL API Assistant | Help with webhook payloads, custom values, API calls, and integrations. | Coming Soon |
 
 ### Community / Paid
 
 | Config | Description | Status |
 |--------|-------------|--------|
-| 🏗️ Marketing Funnel Architect | Full funnel blueprints with GHL pipeline stages, automation sequences, and conversion strategy. | 🔜 Coming Soon |
-| 📋 GHL Snapshot Documenter | Generate professional documentation for GHL snapshots you sell or deliver to clients. | 🔜 Coming Soon |
-| 📊 GHL Reporting Narrator | Turn GHL analytics into client-friendly summary reports. | 🔜 Coming Soon |
-| 🤖 Client Onboarding Planner | Structured questionnaires and onboarding workflows for agency client intake. | 🔜 Coming Soon |
+| Marketing Funnel Architect | Funnel blueprints with GHL pipeline stages, automation sequences, and conversion strategy. | Coming Soon |
+| GHL Snapshot Documenter | Professional documentation for GHL snapshots you sell or deliver to clients. | Coming Soon |
+| GHL Reporting Narrator | Takes GHL analytics and turns them into summary reports your clients can actually read. | Coming Soon |
+| Client Onboarding Planner | Questionnaires and onboarding workflows for agency client intake. | Coming Soon |
 
 ---
 
 ## Quick Start
 
-1. **Pick a config** from the table above
-2. **Open the folder** and read the README for setup instructions
-3. **Copy the instructions** into claude.ai (Custom Instructions or Project)
-4. **Start using it** — try the example prompts included with each config
+1. Pick a config from the table above
+2. Open the folder and read the README
+3. Copy the instructions into claude.ai
+4. Try the example prompts included with each config
 
-Most configs take under 5 minutes to set up.
+Takes about 5 minutes per config.
 
 ---
 
 ## Claude Code Versions
 
-Power users can find advanced versions of these configs built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), featuring:
+If you use [Claude Code](https://docs.anthropic.com/en/docs/claude-code), there are more advanced versions of these configs that include CLAUDE.md project files, custom skills with their own file structures, slash commands for common tasks (`/seo-audit`, `/workflow-map`), and multi-file workflows for more complex processes.
 
-- **CLAUDE.md project files** with deep context
-- **Custom skills** with structured file systems
-- **Slash commands** for common tasks (e.g., `/seo-audit`, `/workflow-map`)
-- **Multi-file workflows** that chain complex processes
-
-Claude Code configs are available to [community members](https://YOUR-COMMUNITY-LINK).
+These are available to [community members](https://www.facebook.com/groups/workflowexperts/).
 
 ---
 
 ## Video Walkthroughs
 
-Every config comes with a companion video showing how to set it up and use it effectively:
+Each config has a companion video showing how to set it up and put it to work.
 
-- 🎬 [YouTube Channel](https://youtube.com/YOUR-CHANNEL)
+[YouTube Channel](https://youtube.com/@WorkflowExperts)
 
 ---
 
 ## About Workflow Experts
 
-We make workflow automation accessible. Whether you're a small business owner trying to automate your first process or an agency building complex systems for clients — we've got tutorials, tools, and templates to help.
+Tutorials, tools, and templates for workflow automation and marketing.
 
-- 🎬 [YouTube](https://youtube.com/YOUR-CHANNEL) — Tutorials and walkthroughs
-- 💬 [Community](https://YOUR-COMMUNITY-LINK) — Get help, share builds, access paid resources
-- 🔧 [GHL Snapshots](https://YOUR-SNAPSHOT-LINK) — Pre-built automation workflows ready to install
-- 🐙 [GitHub](https://github.com/YOUR-USERNAME) — Open-source tools and configs
+- [YouTube](https://youtube.com/@WorkflowExperts) - Tutorials and walkthroughs
+- [Community](https://www.facebook.com/groups/workflowexperts/) - Get help, share what you build, access paid resources
+- [GHL Snapshots](https://workflow-experts.com) - Pre-built automation workflows
+- [GitHub](https://github.com/Workflow-Experts) - Open source tools and configs
 
 ---
 
 ## Contributing
 
-Found a way to improve one of these configs? PRs are welcome. If you've built something cool with these as a starting point, we'd love to hear about it — share it in the [community](https://YOUR-COMMUNITY-LINK).
+If you've improved one of these configs or built something with them, PRs are welcome. Share what you've made in the [community](https://www.facebook.com/groups/workflowexperts/) too.
 
 ---
 
 ## Licence
 
-MIT — use it, modify it, share it. Attribution appreciated but not required.
+MIT - use it, modify it, share it. Attribution appreciated but not required.
