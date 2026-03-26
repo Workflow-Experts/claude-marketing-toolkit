@@ -20,7 +20,7 @@ seo-aeo-specialist/
 
 **Two ways to use this:**
 
-The **skill** is what you want most of the time. Upload it once, and Claude loads it automatically whenever you're doing something SEO-related — writing a blog post, building a landing page, creating FAQ content. You don't need to tell it to use SEO knowledge; it just does.
+The **skill** is what you want most of the time. Upload it once, and Claude loads it automatically whenever you're doing something SEO-related. Writing a blog post, building a landing page, creating FAQ content. You don't need to tell it to use SEO knowledge; it just does.
 
 The **project instructions** are for when you want a dedicated SEO workspace. Create a project, paste them in, and every conversation in that project is geared toward SEO from the start. Good for keyword research sessions and content audits.
 
@@ -28,11 +28,11 @@ The **project instructions** are for when you want a dedicated SEO workspace. Cr
 
 ## What It Covers
 
-**Written SEO & AEO strategy** — a layered approach that works through intent, structure, semantics, and AEO optimisation. Keyword analysis with intent classification, SERP feature breakdowns, and AEO opportunity scoring. Content plans for blog posts, landing pages, and local businesses.
+**Written SEO & AEO strategy.** A layered approach that works through intent, structure, semantics, and AEO optimisation. Keyword analysis with intent classification, SERP feature breakdowns, and AEO opportunity scoring. Content plans for blog posts, landing pages, and local businesses.
 
-**FAQ content creation** — how to research the right questions, structure answers for AI engine extraction, group and organise FAQ pages, and implement FAQPage schema markup. FAQ content is where SEO and AEO overlap most, so the guide goes deep here.
+**FAQ content creation** is where SEO and AEO overlap most, so the guide goes deep here. It covers how to research the right questions, structure answers so AI engines can extract them, organise FAQ pages properly, and implement FAQPage schema markup.
 
-**Technical SEO implementation** — actual code, not theory. Copy-paste JSON-LD templates for LocalBusiness, FAQPage, HowTo, Article, Product, Service, BreadcrumbList, and Organization. Meta tags, canonical tags, and robots directives with exact HTML. Core Web Vitals diagnostics and fixes. Site architecture and internal linking strategy.
+**Technical SEO implementation.** This is the practical stuff. Copy-paste JSON-LD templates for LocalBusiness, FAQPage, HowTo, Article, Product, Service, BreadcrumbList, and Organization. Meta tags, canonical tags, and robots directives with the exact HTML you need. Core Web Vitals diagnostics with specific fixes. Site architecture and internal linking.
 
 ---
 
@@ -69,7 +69,7 @@ Analyse these keywords for a plumbing business in Manchester:
 
 **Content Planning**
 ```
-Plan a blog post targeting "how to choose a CRM for small business" — 
+Plan a blog post targeting "how to choose a CRM for small business" - 
 I want to rank for the featured snippet and get cited in AI Overviews.
 ```
 
@@ -104,17 +104,17 @@ covering Google Business Profile, local schema, and content strategy.
 
 ## How AEO Works (Quick Primer)
 
-Traditional SEO gets you ranking in search results. AEO is about getting your content cited by AI answer engines — Google AI Overviews, ChatGPT Search, Perplexity, and the rest. These tools are giving users answers directly now, and they're pulling that information from somewhere.
+Traditional SEO gets you ranking in search results. AEO is about getting your content cited by AI answer engines like Google AI Overviews, ChatGPT Search, and Perplexity. These tools are giving users answers directly now, and they're pulling that information from somewhere.
 
 The factors that seem to matter most for getting cited:
 
-- **Authority** — does your domain have trust and depth on this topic?
-- **Clarity** — are your answers direct and unambiguous?
-- **Structure** — do you use schema markup, tables, numbered steps, clear headings?
-- **Freshness** — when was this published or last updated?
-- **Specificity** — are you using concrete data, or just vague statements?
+- **Authority.** Does your domain have trust and depth on this topic?
+- **Clarity.** Direct answers, clean structure, unambiguous language.
+- **Structure.** Schema markup, tables, numbered steps, clear headings. AI engines need to be able to parse your content easily.
+- **Freshness.** When was this published or last updated?
+- **Specificity.** Concrete data beats vague statements every time.
 
-FAQ pages are particularly strong for AEO because each Q&A pair is a self-contained, citable answer. Combine that with FAQPage schema and you've got content that both Google and AI engines can easily parse and reference.
+FAQ pages work well for AEO because each Q&A pair stands on its own as a complete answer. Add FAQPage schema on top and both Google and AI engines can parse and reference it easily.
 
 ---
 
@@ -122,11 +122,11 @@ FAQ pages are particularly strong for AEO because each Q&A pair is a self-contai
 
 Tell Claude about your niche upfront. "I run a SaaS company selling project management tools" gets you much better output than a vague request.
 
-Paste in existing content and ask Claude to optimise it. You'll get more value from improving what you've already got than starting from scratch.
+Paste in existing content and ask Claude to optimise it. Improving what you've already published tends to give faster results than starting from scratch.
 
 Ask Claude to prioritise. It'll give you a lot of recommendations, so have it tell you what to tackle first.
 
-If you're using the project, keep it for ongoing work. Context carries across conversations, so the more you use it the more useful it gets.
+If you're using the project, keep it for ongoing work. Context carries across conversations, so it gets more useful over time.
 
 Bring in data from your other tools. Export keyword data from Ahrefs or SEMrush and paste it in for analysis.
 
@@ -143,12 +143,12 @@ Bring in data from your other tools. Export keyword data from Ahrefs or SEMrush 
 
 Tutorials, tools, and templates for workflow automation and marketing.
 
-- 🎬 [YouTube](https://youtube.com/@WorkflowExperts) — Tutorials and walkthroughs
-- 💬 [Community](https://www.facebook.com/groups/workflowexperts/) — Get help and share what you build
-- 🔧 [GHL Snapshots](https://workflow-experts.com) — Pre-built automation workflows
+- 🎬 [YouTube](https://youtube.com/@WorkflowExperts) - Tutorials and walkthroughs
+- 💬 [Community](https://www.facebook.com/groups/workflowexperts/) - Get help and share what you build
+- 🔧 [GHL Snapshots](https://workflow-experts.com) - Pre-built automation workflows
 
 ---
 
 ## Licence
 
-MIT — use it, modify it, share it. Attribution appreciated but not required.
+MIT - use it, modify it, share it. Attribution appreciated but not required.
