@@ -29,7 +29,7 @@ There are two ways to use each config:
 |--------|-------------|--------|
 | [SEO & AEO Specialist](./seo-aeo-specialist/) | Keyword analysis, content planning, technical SEO, schema markup, and optimisation for AI answer engines. | ✅ Available |
 | [GHL Workflow Planner](./ghl-workflow-planner/) | Describe a business process and get a buildable GHL workflow back. Triggers, actions, conditions, the lot. | ✅ Available |
-| GHL API Assistant | Help with webhook payloads, custom values, API calls, and integrations. | 🔜 Coming Soon |
+| [GHL API Assistant](./ghl-api-assistant/) | Help with authentication setup, API calls, and endpoint reference for GHL integrations. | ✅ Available |
 
 ### Community / Paid
 
