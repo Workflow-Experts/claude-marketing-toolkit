@@ -57,7 +57,7 @@ Takes about 5 minutes per config.
 
 If you use [Claude Code](https://docs.anthropic.com/en/docs/claude-code), there are more advanced versions of these configs that include CLAUDE.md project files, custom skills with their own file structures, slash commands for common tasks (`/seo-audit`, `/workflow-map`), and multi-file workflows for more complex processes.
 
-These are available to [community members](https://www.facebook.com/groups/workflowexperts/).
+These are available to [community members](https://www.facebook.com/groups/workflowexperts/?ref=share).
 
 ---
 
@@ -65,7 +65,7 @@ These are available to [community members](https://www.facebook.com/groups/workf
 
 Each config has a companion video showing how to set it up and put it to work.
 
-[YouTube Channel](https://youtube.com/@WorkflowExperts)
+[YouTube Channel](https://youtube.com/@WorkflowExperts?sub_confirmation=1)
 
 ---
 
@@ -73,16 +73,16 @@ Each config has a companion video showing how to set it up and put it to work.
 
 Tutorials, tools, and templates for workflow automation and marketing.
 
-- 🎬 [YouTube](https://youtube.com/@WorkflowExperts) - Tutorials and walkthroughs
-- 💬 [Community](https://www.facebook.com/groups/workflowexperts/) - Get help, share what you build, access paid resources
-- 🔧 [GHL Snapshots](https://workflow-experts.com) - Pre-built automation workflows
+- 🎬 [YouTube](https://youtube.com/@WorkflowExperts?sub_confirmation=1) - Tutorials and walkthroughs
+- 💬 [Community](https://www.facebook.com/groups/workflowexperts/?ref=share) - Get help, share what you build, access paid resources
+- 🔧 [GHL Snapshots](https://workflow-experts.com?utm_source=github&utm_medium=claude-marketing-toolkit-readme&utm_campaign=developer&utm_content=ghl-snapshots) - Pre-built automation workflows
 - 🐙 [GitHub](https://github.com/Workflow-Experts) - Open source tools and configs
 
 ---
 
 ## Contributing
 
-If you've improved one of these configs or built something with them, PRs are welcome. Share what you've made in the [community](https://www.facebook.com/groups/workflowexperts/) too.
+If you've improved one of these configs or built something with them, PRs are welcome. Share what you've made in the [community](https://www.facebook.com/groups/workflowexperts/?ref=share) too.
 
 ---
 
